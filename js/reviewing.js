@@ -38,20 +38,11 @@ const CVIS = {
 const LEGENDS = {
     journals: [
         //{type: "JGED1", desc: "Guest Editor"},
-        {type: "JREW1", desc: "Reviewer - 1 paper"},
-        //{type: "JGED2", desc: "Guest Editor"},
-        {type: "JREW2", desc: "Reviewer - 2 papers"},
-        {type: "JREW3", desc: "Reviewer - 3+ papers"},
         {type: "JGED3", desc: "Reviewer"},
     ],
     conferences: [
         {type: "CHAIR", desc: "Reviewer - 2+ papers"},
         {type: "PCM", desc: "Reviewer - 1 paper"},
-        {type: "CREW", desc: "Reviewer"},
-    ],
-    books: [
-        {type: "BED", desc: "Editor"},
-        {type: "BREW", desc: "Reviewer"},
     ],
 };
 
