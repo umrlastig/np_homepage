@@ -23,7 +23,7 @@
 const CVIS = {
     JOUR_LIST: ["RA-L"],
     CONF_LIST: ["IROS", "ICRA", "CVPRW", "Humanoid"],
-    TIME_INTERVAL: ["2016", "2021"],
+    TIME_INTERVAL: ["2015", "2021"],
     SVG_W: 800,
     TITLE_Y: 26,
     CAPTION_X: 40,
@@ -40,8 +40,8 @@ const LEGENDS = {
         {type: "JGED3", desc: "Reviewer"}
     ],
     conferences: [
-        {type: "CHAIR", desc: "Reviewer - 2+ papers"},
-        {type: "PCM", desc: "Reviewer - 1 paper"}
+        {type: "PCM", desc: "Reviewer - 1 paper"},
+        {type: "CHAIR", desc: "Reviewer - 2+ papers"}        
     ],
 };
 
@@ -91,7 +91,7 @@ var _reviewing4x = function(data, venueList, jobList, parentEl, svg_h, heading){
          .attr("transform", "translate(0,60)");
     svgEl.append("g")
          .attr("transform", "translate("+CVIS.TRACK_X+",54)")
-         .call(d3.axisTop(timeScale).tickValues([timeParser("2010"), timeParser("2015"), timeParser("2020")]).tickSizeOuter(0));
+         .call(d3.axisTop(timeScale).tickValues([timeParser("2016"), timeParser("2018"), timeParser("2020")]).tickSizeOuter(0));
 
     venueGs = d3.select("g#"+heading.toLowerCase())
                 .selectAll("g.venues")
@@ -129,7 +129,7 @@ var _reviewing4x = function(data, venueList, jobList, parentEl, svg_h, heading){
 var reviewingVis = function(dataURL){
     d3.json(dataURL).then(
         function(data){
-            _reviewing4x(data.journals, CVIS.JOUR_LIST, LEGENDS.journals, "#revj", 110, "Journals");
+            _reviewing4x(data.journals, CVIS.JOUR_LIST, LEGENDS.journals, "#revj", 120, "Journals");
             _reviewing4x(data.conferences, CVIS.CONF_LIST, LEGENDS.conferences, "#revc", 280, "Conferences");
         }
     ).catch(function(err){console.log(err);});
