@@ -37,12 +37,11 @@ const CVIS = {
 
 const LEGENDS = {
     journals: [
-        //{type: "JGED1", desc: "Guest Editor"},
-        {type: "JGED3", desc: "Reviewer"},
+        {type: "JGED3", desc: "Reviewer"}
     ],
     conferences: [
         {type: "CHAIR", desc: "Reviewer - 2+ papers"},
-        {type: "PCM", desc: "Reviewer - 1 paper"},
+        {type: "PCM", desc: "Reviewer - 1 paper"}
     ],
 };
 
