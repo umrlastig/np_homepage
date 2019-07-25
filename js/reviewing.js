@@ -21,14 +21,13 @@
 // THE SOFTWARE.
 
 const CVIS = {
-    BOOK_LIST: ["Books"],
     JOUR_LIST: ["RA-L"],
     CONF_LIST: ["IROS", "ICRA", "CVPR(W)", "Humanoid"],
-    TIME_INTERVAL: ["2017", "2021"],
+    TIME_INTERVAL: ["2016", "2021"],
     SVG_W: 800,
     TITLE_Y: 26,
     CAPTION_X: 40,
-    TRACK_WIDTH: 300,
+    TRACK_WIDTH: 120,
     TRACK_HEIGHT: 18,
     TRACK_X: 110,
     CELL_SIZE: 12,

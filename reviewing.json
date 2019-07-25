@@ -1,5 +1,4 @@
 {
-
  "journals": [
    {"name": "RAL", "role": "Reviewer", "year": 2018, "type": "JGED3", "description": "IEEE Robotics and Automation Letters", "url": "https://www.ieee-ras.org/publications/ra-l"},
    {"name": "RAL", "role": "Reviewer", "year": 2019, "type": "JGED3", "description": "IEEE Robotics and Automation Letters", "url": "https://www.ieee-ras.org/publications/ra-l"},
