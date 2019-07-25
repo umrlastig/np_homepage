@@ -9,7 +9,7 @@
      {"name": "ICRA", "role": "Reviewer", "year": 2017, "type": "PCM", "description": "IEEE International Conference on Robotics and Automation", "url": "https://www.icra2017.org/"},
      {"name": "ICRA", "role": "Reviewer", "year": 2018, "type": "CHAIR", "description": "IEEE International Conference on Robotics and Automation", "url": "https://www.icra2018.org/"},
      {"name": "ICRA", "role": "Reviewer", "year": 2019, "type": "PCM", "description": "IEEE International Conference on Robotics and Automation", "url": "https://www.icra2019.org/"},
-     {"name": "CVPR(W)", "role": "Reviewer", "year": 2018, "type": "PCM", "description": "IEEE International Conference on Computer Vision (Workshop)", "url": "https://www.cvpr2018.org/"},                                        
+     {"name": "CVPRW", "role": "Reviewer", "year": 2018, "type": "PCM", "description": "IEEE International Conference on Computer Vision (Workshop)", "url": "https://www.cvpr2018.org/"},                                        
      {"name": "Humanoid", "role": "Reviewer", "year": 2019, "type": "PCM", "description": "IEEE-RAS International Conference on Humanoid Robots", "url": "http://humanoids2019.loria.fr/"},
  ]
 }

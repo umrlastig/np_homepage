@@ -22,7 +22,7 @@
 
 const CVIS = {
     JOUR_LIST: ["RA-L"],
-    CONF_LIST: ["IROS", "ICRA", "CVPR(W)", "Humanoid"],
+    CONF_LIST: ["IROS", "ICRA", "CVPRW", "Humanoid"],
     TIME_INTERVAL: ["2016", "2021"],
     SVG_W: 800,
     TITLE_Y: 26,
