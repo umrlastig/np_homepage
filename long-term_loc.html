@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Long-term localization - Nathan Piasco's webpage</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="css/resume.css" rel="stylesheet">
+
+  <!-- scripts on load -->
+  <script src="vendor/d3/d3.min.js"></script>
+  <script src="js/reviewing.js" charset="utf-8"></script>
+  <script src="js/hal.js" charset="utf-8"></script>
+
+</head>
+
+<body id="page-top" onload="getKeywordPublicationsAuthorYear('nathan-piasco','Image-based localization',2018); getTextPublicationsAuthor('nathan-piasco', 'Learning Scene Geometry')">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <select class="selectpicker" data-width="fit">
+      <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+      <option  data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
+    </select>
+    <a class="nav-link text-muted subheading lang-en" href="https://umrlastig.github.io/acte">ACTE Team</a>
+    <a class="nav-link text-muted subheading lang-fr" href="https://umrlastig.github.io/acte">Equipe ACTE</a>
+    <a class="nav-link text-muted subheading lang-en" href="index.html">Main page</a>
+    <a class="nav-link text-muted subheading lang-fr" href="index.html">Page principale</a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Nathan Piasco</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/piasco.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang-en" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#about">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang-en" href="#slides">Slides</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#slides">Slides</a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger lang-en" href="#publications">Publications</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#publications">Publications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0 lang-en">Long-term 
+          <span class="text-primary lang-en">Localisation</span>
+        </h1>
+        <h1 class="mb-0 lang-fr">Localisation
+          <span class="text-primary lang-fr">à long terme</span>
+        </h1>
+        <div class="subheading mb-5">73 avenue de Paris · 94165 Saint-Mandé CEDEX · 
+          <a>nath<!--anti@spam.fr!-->an.piasco@ign.fr</a>
+        </div>
+        <p class="lead mb-5">We propose a new approach for outdoor large scale image based localization that can deal with challenging scenarios like cross-season, cross-weather, day/night and long-term localization. The key component of our method is a new learned global image descriptor, that can effectively benefit from scene geometry information during training. At test time, our system is capable of inferring the depth map related to the query image and use it to increase localization accuracy.</p>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="slides">
+      <div class="w-75">
+        <h2 class="mb-5 lang-en">Method</h2>
+        <h2 class="mb-5 lang-fr">Méthode</h2>
+                <iframe src="https://www.slideshare.net/slideshow/embed_code/key/7vF6dydeLgddn6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
+        </iframe> 
+    </section>
+
+    <hr class="m-0">
+
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
+      <div class="w-100" id="pub">
+        <h2 class="mb-5">Publications</h2>
+        <div class="subheading mb-3 mt-3">2019</div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/jquery.isotope.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.js"></script>
+
+</body>
+
+</html>
