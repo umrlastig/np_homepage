@@ -31,7 +31,7 @@
 
 </head>
 
-<body id="page-top" onload="getKeywordPublicationsAuthorYear('nathan-piasco','Image-based localization',2018); getTextPublicationsAuthor('nathan-piasco', 'Learning Scene Geometry')">
+<body id="page-top" onload="getTextPublicationsAuthor('nathan-piasco', 'GEOMETRIC CAMERA')">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <select class="selectpicker" data-width="fit">
@@ -58,8 +58,8 @@
           <a class="nav-link js-scroll-trigger lang-fr" href="#about">A propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger lang-en" href="#slides">Method</a>
-          <a class="nav-link js-scroll-trigger lang-fr" href="#slides">Method</a>
+          <a class="nav-link js-scroll-trigger lang-en" href="#slides">Video</a>
+          <a class="nav-link js-scroll-trigger lang-fr" href="#slides">Video</a>
         </li>        
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang-en" href="#publications">Publications</a>
@@ -73,16 +73,16 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0 lang-en">Long-term 
-          <span class="text-primary lang-en">Localisation</span>
+        <h1 class="mb-0 lang-en">6-DoF Pose 
+          <span class="text-primary lang-en">Estimation</span>
         </h1>
-        <h1 class="mb-0 lang-fr">Localisation
-          <span class="text-primary lang-fr">à long terme</span>
+        <h1 class="mb-0 lang-fr">Estimation
+          <span class="text-primary lang-fr">de pose</span>
         </h1>
         <div class="subheading mb-5">73 avenue de Paris · 94165 Saint-Mandé CEDEX · 
           <a>nath<!--anti@spam.fr!-->an.piasco@ign.fr</a>
         </div>
-        <p class="lead mb-5">We propose a new approach for outdoor large scale image based localization that can deal with challenging scenarios like cross-season, cross-weather, day/night and long-term localization. The key component of our method is a new learned global image descriptor, that can effectively benefit from scene geometry information during training. At test time, our system is capable of inferring the depth map related to the query image and use it to increase localization accuracy.</p>
+        <p class="lead mb-5">In this work we present an online camera pose estimation method that combines Content-Based Image Retrieval (CBIR) and pose refinement based on a learned representation of the scene geometry extracted from monocular images. Our pose estimation method is two-step, we first retrieve an initial 6 Degrees of Freedom (DoF) location of an unknown-pose query by retrieving the most similar candidate in a pool of geo-referenced images. In a second time, we refine the query pose with a Perspective-n-Point (PnP) algorithm where the 3D points are obtained thanks to a generated depth map from the retrieved image candidate.</p>
       </div>
     </section>
 
@@ -90,17 +90,9 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="slides">
       <div class="w-75">
-        <h2 class="mb-5 lang-en">Method</h2>
-        <h2 class="mb-5 lang-fr">Méthode</h2>
-                <iframe src="https://www.slideshare.net/slideshow/embed_code/key/7vF6dydeLgddn6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
-        </iframe> 
-               
-       <div class="project">      
-        <h3> <a href="ressources/NPiasco_ICRA2019_Poster.pdf"> Poster </a> </h3>
-        
-        <a href="ressources/NPiasco_ICRA2019_Poster.pdf"> <img width="6%" src="img/icons/pdf_icon.png">  </a>
-       </div>
-
+        <h2 class="mb-5 lang-en">Video</h2>
+        <h2 class="mb-5 lang-fr">Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zz1yIRQaab8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
     <hr class="m-0">
